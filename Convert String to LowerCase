@@ -1,0 +1,15 @@
+// User function template for Java
+import java.util.Scanner;
+class Solution {
+    static String toLower(String s) {
+     return (s.toLowerCase());
+        
+    }
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        String s = sc.nextLine();
+        
+        toLower(s);
+        System.out.print(s.toLowerCase());
+    }
+}
