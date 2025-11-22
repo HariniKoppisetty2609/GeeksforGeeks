@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class Solution{
+    public String compareNM(int n, int m){
+        if(n < m){
+            return "lesser";
+        }
+        else if(n==m){
+            return "equal";
+        }
+        else{
+            return "greater";
+        }
+    }
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int m = sc.nextInt();
+        
+        Solution obj  = new Solution();
+        System.out.println(obj.compareNM(n, m));
+    }
+}
